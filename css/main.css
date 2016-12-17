@@ -1,0 +1,86 @@
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+}
+
+body input:required:valid,
+body textarea:required:valid {
+
+}
+
+body {
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 16px;
+}
+
+.header_topline {
+    background-color: #43484C;
+    padding: 15px 0;
+    color: #ffffff;
+}
+
+.header_topline a {
+    color: #ffffff;
+}
+
+.top_links {
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 10;
+}
+
+.top_links a {
+    text-decoration: underline;
+}
+
+.top_links a:hover {
+    text-decoration: none;
+}
+
+.soc_buttons {
+    float: right;
+}
+
+.soc_buttons a {
+    font-size: 26px;
+    margin-left: 8px;
+}
+
+.auth_buttons {
+    background-color: transparent;
+    border: medium none;
+    font-size: 26px;
+}
+
+.logo {
+    display: block;
+    padding: 15px 0;
+    color: #fff;
+    font-family: "NautilusPompiliusRegular";
+    font-size: 42px;
+    text-align: center;
+}
+
+.top_header {
+    background-color: #4AAAD2;
+}
