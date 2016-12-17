@@ -21,6 +21,15 @@
         vertical-align: middle;
         width: 100%;
     }
+    .main_menu ul {
+        background-color: #3595bd;
+        display: none;
+        position: absolute;
+        width: 100%;
+    }
+    .main_menu ul li {
+        display: block;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -50,6 +59,10 @@
     .top_links {
         display: inline-block !important;
     }
+    .main_menu ul {
+        display: block !important;
+    }
+
 }
 
 /* Medium Devices, Desktops */

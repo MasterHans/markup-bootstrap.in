@@ -66,10 +66,16 @@ body {
     margin-left: 8px;
 }
 
-.auth_buttons {
+.auth_buttons,
+.main_menu_button {
     background-color: transparent;
     border: medium none;
     font-size: 26px;
+}
+
+.main_menu_button {
+    color: #ffffff;
+    padding: 8px 15px 0;
 }
 
 .logo {
@@ -83,4 +89,52 @@ body {
 
 .top_header {
     background-color: #4AAAD2;
+}
+
+.main_menu {
+    background-color: #3595bd;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.main_menu a {
+    color: #ffffff;
+    padding: 15px 10px;
+    display: block;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .2s;
+    transition: all .25s;
+}
+
+.main_menu a:hover {
+    background-color: #1e7ea6;
+}
+
+.main_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+    text-transform: uppercase;
+}
+
+.main_menu ul li {
+    display: inline-block;
+}
+
+.top_contacts {
+    float: right;
+    font-size: 32px;
+    padding: 0 15px;
+    background-color: #1e7ea6;
+    line-height: 53px;
+}
+
+h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "RobotoCondensedLight";
 }
