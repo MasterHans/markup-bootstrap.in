@@ -118,11 +118,13 @@ body {
     list-style-type: none;
     float: left;
     text-transform: uppercase;
+    z-index: 12;
 }
 
 .main_menu ul li {
     display: inline-block;
 }
+
 
 .top_contacts {
     float: right;
@@ -137,4 +139,33 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     font-family: "RobotoCondensedLight";
+}
+
+.slider-container {
+    position: relative;
+}
+
+.slider-container img {
+    max-width: 100%;
+}
+
+.next_button,
+.prev_button {
+    color: #ffffff;
+    font-size: 46px;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    top: 40%;
+    border-radius: 10em;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 0 26px;
+}
+
+.next_button {
+    right: 20px;
+}
+
+.prev_button {
+    left: 20px;
 }
