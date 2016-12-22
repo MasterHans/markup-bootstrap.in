@@ -20,12 +20,12 @@
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-
+    border: red 3px solid;
 }
 
 body input:required:valid,
 body textarea:required:valid {
-
+    border: green 3px solid;
 }
 
 body {
@@ -187,6 +187,7 @@ section.oder {
     padding: 10px 20px;
     border-radius: 5px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .button:hover {
@@ -198,5 +199,29 @@ section.oder {
 }
 
 .sell_right .button {
-    float:right;
+    float: right;
+}
+
+.hidden {
+    display: none;
+}
+
+.pop_form input[type="text"] {
+    display: block;
+    line-height: 24px;
+    margin: 0 auto 12px;
+    width: 90%;
+    border: #999 3px solid;
+}
+
+.pop_form .button {
+    margin: auto;
+}
+
+.pop_form h3 {
+    margin: 10px auto 15px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "RobotoCondensedBold";
+    text-transform: uppercase;
 }
