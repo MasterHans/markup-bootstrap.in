@@ -7,7 +7,14 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+    .sell_right .button {
+        margin: 15px auto;
+        float: none;
+    }
 
+    .sell_descr {
+        text-align: center;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -21,12 +28,14 @@
         vertical-align: middle;
         width: 100%;
     }
+
     .main_menu ul {
         background-color: #3595bd;
         display: none;
         position: absolute;
         width: 100%;
     }
+
     .main_menu ul li {
         display: block;
     }
@@ -59,6 +68,7 @@
     .top_links {
         display: inline-block !important;
     }
+
     .main_menu ul {
         display: block !important;
     }

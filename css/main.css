@@ -125,7 +125,6 @@ body {
     display: inline-block;
 }
 
-
 .top_contacts {
     float: right;
     font-size: 32px;
@@ -168,4 +167,36 @@ h1 {
 
 .prev_button {
     left: 20px;
+}
+
+section.oder {
+    background-color: #eee;
+    padding: 25px 0;
+}
+
+.sell_descr {
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+.button {
+    display: block;
+    border: none;
+    background-color: #2BC5A4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #4feac8;
+}
+
+.button:active {
+    background-color: #16b08f;
+}
+
+.sell_right .button {
+    float:right;
 }
