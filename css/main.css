@@ -169,7 +169,7 @@ h1 {
     left: 20px;
 }
 
-section.oder {
+section.order {
     background-color: #eee;
     padding: 25px 0;
 }
@@ -224,4 +224,32 @@ section.oder {
     font-weight: normal;
     font-family: "RobotoCondensedBold";
     text-transform: uppercase;
+}
+
+.blog_item img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.blog_item h3 {
+    text-transform: uppercase;
+    font-family: "RobotoCondensedRegular";
+    margin-bottom: 10px;
+}
+
+.blog_item a {
+    text-decoration: underline;
+}
+
+.blog_item p {
+    margin-top: 0;
+}
+
+.right_aside {
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #cccccc;
+    margin-top: 30px;
 }
